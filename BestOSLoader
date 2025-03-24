@@ -1,0 +1,16 @@
+// Добро пожаловать в исходный код операционной системы Best OS !
+function operationsystemLoader {
+  input(texting;Loading MBR for the Best OS !)
+  if commands == TextingMBR(
+  timeout 5
+  input(texting;Kernel and MBR loaded !)
+  if KernelLoaded, MBRLoaded(enter;bestosload.efi)
+  boot.load(10)
+  if GBRAM == (startOS;0,05GB)
+  loop bootload(5)
+  // Cartonia Boot Loader написан, и запускает файл bestosload.efi!
+  loop texting.Project()
+
+  )
+
+}
